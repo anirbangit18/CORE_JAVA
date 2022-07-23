@@ -1,0 +1,91 @@
+// 1. public java.lang.String();
+
+ /*class Test{
+	 public static void main(String[] args){
+		String str=new String();//Empty String
+		System.out.println(str);
+	 }
+ }*/
+
+
+// 2. public java.lang.String(java.lang.String);
+/*
+ class Test{
+	 public static void main(String[] args){
+		String str=new String("JAVA");
+		System.out.println(str);
+	 }
+ }
+*/
+
+
+// 3. public java.lang.String(char[]);
+
+/*
+class Test{
+	 public static void main(String[] args){
+		char[] ch ={'J','A','V','A'};
+		String str=new String(ch);
+		System.out.println(str);
+	 }
+ }
+*/
+
+// 4. public java.lang.String(char[], int, int);
+/*
+class Test{
+	 public static void main(String[] args){
+		char[] ch ={'J','A','V','A'};
+		String str=new String(ch,1,2);
+		System.out.println(str);
+	 }
+ }
+*/
+
+// 5. public java.lang.String(int[], int, int);
+
+class Test{
+	 public static void main(String[] args){
+		int[] in ={10,11,12,13,14};
+		int in=new int(in,2,2);
+		System.out.println(str);
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  
+  
+  
+  
+  public java.lang.String(byte[], int, int, int);
+  public java.lang.String(byte[], int);
+  public java.lang.String(byte[], int, int, java.lang.String) throws java.io.UnsupportedEncodingException;
+  public java.lang.String(byte[], int, int, java.nio.charset.Charset);
+  static java.lang.String newStringUTF8NoRepl(byte[], int, int);
+  static java.lang.String newStringNoRepl(byte[], java.nio.charset.Charset) throws java.nio.charset.CharacterCodingException;
+  static byte[] getBytesUTF8NoRepl(java.lang.String);
+  static byte[] getBytesNoRepl(java.lang.String, java.nio.charset.Charset) throws java.nio.charset.CharacterCodingException;
+  static int decodeASCII(byte[], int, char[], int, int);
+  public java.lang.String(byte[], java.lang.String) throws java.io.UnsupportedEncodingException;
+  public java.lang.String(byte[], java.nio.charset.Charset);
+  public java.lang.String(byte[], int, int);
+  public java.lang.String(byte[]);
+  public java.lang.String(java.lang.StringBuffer);
+  public java.lang.String(java.lang.StringBuilder);*/

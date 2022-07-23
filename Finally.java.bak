@@ -1,0 +1,13 @@
+class Finally {
+	public static void main(String[] args){
+		try{
+			int m=25/0;
+			System.out.println("Try Block Executed Succesfully");
+		}catch (ArithmeticException ae){
+			System.out.println("Catch Block Executed Succesfully");
+		}finally{
+			System.out.println("Finally Block Executed Succesfully");
+		}
+		System.out.println("Executed Succesfully as because Program Terminating Normally");
+	}
+}

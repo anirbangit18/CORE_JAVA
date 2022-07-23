@@ -1,0 +1,19 @@
+class NoMatchException extends Exception{
+	NoMatchException(String str){
+		super(str);
+	}
+}
+class Test{
+	public static void main(String[] args){
+		String str=args[0];
+		try{
+			if(str.equals("india"))
+				throw new NoMatchException("String is Not India");
+			else
+				System.out.println("String is:  "+str);
+		}
+		catch (NoMatchException nme){
+				System.out.println(nme.getMessage());
+		}
+	}
+}

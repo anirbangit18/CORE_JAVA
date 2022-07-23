@@ -1,0 +1,21 @@
+class TooOldException extends RuntimeException{
+
+}
+class TooYoungException extends RuntimeException{
+
+}
+class Test{
+	public static void main(String[] args){
+		System.out.println("Enter Your Age: ");
+		Scanner sc =new Scanner(System.in);
+		int age=sc.nextInt();
+		if(age<15){
+			throw new TooOldException();
+		}
+		else if(age>61){
+			throw new TooYoungException();
+		}
+		else
+			System.out.println("You Will get  Massege Soon");
+	}
+}

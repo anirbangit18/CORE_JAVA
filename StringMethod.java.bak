@@ -1,0 +1,11 @@
+import java.util.*;
+class StringMethod{
+	public static void main(String[] args){
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a string: ");
+		String str1=sc.nextLine();
+
+		//Finding the string is empty or not
+		System.out.println(str1.isEmpty());
+	}
+}

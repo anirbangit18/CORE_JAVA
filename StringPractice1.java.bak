@@ -1,0 +1,12 @@
+import java.util.*;
+class Username{
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Username: ");
+		String str1=sc.nextLine();
+		if(str1.isBlank()==0)
+			System.out.println("Error Massage");
+		else
+			System.out.println("Welcome to Java World");
+	}
+}

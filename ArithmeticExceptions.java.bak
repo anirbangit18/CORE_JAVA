@@ -1,0 +1,11 @@
+class ArithmeticExceptions{
+	public static void main(String[] args){
+		doStuff();
+	}
+	void doStuff(){
+		doMoreStuff();
+	}
+	void doMoreStuff(){
+		System.out.println("Division of Two number is"+10/0);
+	}
+}

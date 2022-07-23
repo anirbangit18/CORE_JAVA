@@ -1,0 +1,12 @@
+class TyrePuncureException extends RuntimeException{
+	
+}
+class FuelEndingException extends RuntimeException {
+	
+}
+class Test{
+	public static void main(String[] arg){
+		throw new TyrePuncureException();
+		throw new FuelEndingException();
+	}
+}

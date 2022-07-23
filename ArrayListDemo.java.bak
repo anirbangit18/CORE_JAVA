@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+class ArrayListDemo{
+	public static void main(String[] args){
+		ArrayList<String> ar=new ArrayList <String>();
+		System.out.println(ar);
+		ar.add("Shyam");//Add method Without indexing
+		ar.add("Ram");//Add method Without indexing
+		ar.add("Rahim");//Add method Without indexing
+		ar.add("Anirban");//Add method Without indexing
+		ar.add("Supratim");//Add method Without indexing
+		System.out.println(ar);
+		ar.add(2,"Amit");//Add method With indexing
+		System.out.println(ar);
+        ar.add(0,"Soubhik");//Add method With indexing
+		System.out.println(ar);
+		
+		ar.remove("Amit");//Pass direct value .
+		System.out.println(ar);
+		ar.remove(1);//Pass using indexing direct value .
+        System.out.println(ar);
+		//Size method
+		ar.removeAll(ar);
+		System.out.println(ar);
+	}
+}
